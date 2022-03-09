@@ -1,0 +1,92 @@
+.menu_page{
+    text-align: center;
+    margin: 100px;
+    padding: 5px;
+    border: solid;
+    background-color: bisque;
+    border-radius: 10px;
+}
+img, .prices{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 8%;
+}
+#food, #juice,#tea,#Escorts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+.img_d{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+figure{
+    box-shadow: 5px 5px 5px 5px rosybrown;
+    border-radius: 8%;
+    max-width: 100%;
+}
+.sub-head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+.sub-heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.sub-heading{
+    text-decoration: underline;
+}
+.prices{
+    opacity: 0;
+    font-size: 5px;
+    text-align: center;
+    font-style: italic;
+    padding: 1px;
+    margin: 5px;
+
+}
+figure:hover .prices{
+    opacity: 3;
+    transition: .5s ease;
+    font-size: 20px;
+}
+h1{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+   font-size: 50px;
+   box-shadow: 5px 5px 5px 5px rosybrown;
+}
+#headings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+@media screen and (max-width:680px){
+    .menu_page{
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+        border: solid;
+    }
+    #headings{
+        font-size: 15px;
+    }
+    .img_d{
+        margin: 5%;
+        padding: 2px;
+        width: 100px;
+    }
+    img{
+        width: 100px;
+        height: 120px;
+    }
+}
